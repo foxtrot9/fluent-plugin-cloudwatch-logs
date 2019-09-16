@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fluent/plugin/cloudwatch/logs/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "fluent-plugin-cloudwatch-logs"
+  spec.name          = "fluent-plugin-cloudwatch-logs-foxtrot9"
   spec.version       = Fluent::Plugin::Cloudwatch::Logs::VERSION
-  spec.authors       = ["Ryota Arai"]
-  spec.email         = ["ryota.arai@gmail.com"]
+  spec.authors       = ["Mit Naria"]
+  spec.email         = ["mit4dev@gmail.com"]
   spec.summary       = %q{CloudWatch Logs Plugin for Fluentd}
-  spec.homepage      = "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs"
+  spec.homepage      = "https://github.com/foxtrot9/fluent-plugin-cloudwatch-logs"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

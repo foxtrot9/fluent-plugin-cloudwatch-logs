@@ -1,3 +1,14 @@
+# This is fork of https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs
+
+## Changes:
+1. https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/159/files
+
+## Installation:
+```sh
+gem install fluent-plugin-cloudwatch-logs-foxtrot9
+```
+
+# Old README.md:
 # fluent-plugin-cloudwatch-logs
 
 [![Gem Version](https://badge.fury.io/rb/fluent-plugin-cloudwatch-logs.svg)](http://badge.fury.io/rb/fluent-plugin-cloudwatch-logs)
@@ -14,7 +25,6 @@
 * May not support all future fluentd features
 
 ## Installation
-
 ```sh
 gem install fluent-plugin-cloudwatch-logs
 ```
